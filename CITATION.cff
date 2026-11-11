@@ -1,7 +1,11 @@
+
 cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata below."
+
 title: "ClinicalAlign-AD: A Reproducible Multimodal Evaluation of Clinical, Plasma NfL, DTI, and Structural MRI Features for MCI-to-Alzheimer's Disease Conversion Prediction"
+
 type: software
+
 authors:
   - family-names: Babanzadeh
     given-names: Jina
@@ -11,3 +15,13 @@ authors:
     given-names: Elham Gholami
   - family-names: Dadsetani
     given-names: M.K.
+    orcid: "https://orcid.org/0009-0002-9540-7593"
+
+version: 1.0.0
+date-released: 2026-11-11
+
+doi: 10.5281/zenodo.24129682
+
+repository-code: "https://github.com/dadsetani/ClinicalAlign-AD"
+
+license: MIT
