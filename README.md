@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1453657311.svg)](https://doi.org/10.5281/zenodo.24129682)
 # ClinicalAlign-AD
 
 Reproducible analysis and manuscript source for predicting 36-month
