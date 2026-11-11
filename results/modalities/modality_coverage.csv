@@ -1,0 +1,10 @@
+modality,available_n,available_percent,converter_n,stable_n
+demographics,702,100.0,255,447
+family_history,701,99.9,255,446
+vitals,701,99.9,254,447
+neurological_exam,693,98.7,251,442
+medical_history,694,98.9,252,442
+plasma_nfl,336,47.9,85,251
+dti,127,18.1,38,89
+dti_standard_mean,43,6.1,14,29
+freesurfer,698,99.4,255,443

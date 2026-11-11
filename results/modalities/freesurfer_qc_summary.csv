@@ -1,0 +1,6 @@
+STATUS,OVERALLQC,n
+complete,Fail,7
+complete,Hippocampus Only,10
+complete,Partial,612
+complete,Pass,525
+partial,not recorded,11135

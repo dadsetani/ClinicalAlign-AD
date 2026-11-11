@@ -1,0 +1,9 @@
+model,reference_feature_set,candidate_feature_set,auc_difference,ci_lower,ci_upper
+logistic_l2,clinical_core,clinical_core,0.0,0.0,0.0
+logistic_l2,clinical_core,clinical_extended,0.028213507625272305,-0.04478485838779963,0.09902505446623092
+logistic_l2,clinical_core,clinical_core_plus_nfl,0.060130718954248374,-0.009697712418300655,0.14542483660130717
+logistic_l2,clinical_core,clinical_extended_plus_nfl,0.09749455337690638,0.0007407407407408125,0.19274509803921566
+logistic_l2,clinical_core,clinical_extended_plus_dti,0.05610021786492381,-0.021900871459694913,0.12832788671023967
+logistic_l2,clinical_core,clinical_extended_plus_dti_standard,0.04803921568627456,-0.021614923747276717,0.1215822440087146
+logistic_l2,clinical_core,clinical_extended_plus_freesurfer,0.19923747276688453,0.08027505446623102,0.3111274509803922
+logistic_l2,clinical_core,multimodal_all,0.2221132897603486,0.09770152505446633,0.3321377995642701

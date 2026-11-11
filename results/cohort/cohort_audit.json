@@ -1,0 +1,57 @@
+{
+  "config": {
+    "data_cutoff": "2026-09-20",
+    "minimum_valid_date": "2000-01-01",
+    "baseline_visit_codes": [
+      "bl"
+    ],
+    "baseline_diagnosis_code": 2,
+    "ad_diagnosis_code": 3,
+    "conversion_horizon_days": 1095,
+    "stable_followup_min_days": 1005,
+    "candidate_stable_diagnosis_codes": [
+      1,
+      2
+    ],
+    "strict_stable_diagnosis_codes": [
+      2
+    ],
+    "reported_total": 695,
+    "reported_converters": 255,
+    "reported_stable": 440
+  },
+  "input_manifest": {
+    "Diagnosis.zip": "27761409f8fbb1239ec168538df142a68af6a0ade63d8fb559a70e0b3d43c85e",
+    "Subject_Characteristics.zip": "9d0de16663aa4067be2ea3638d5cc490ed553ec963e0efd65616da7aecdffd7d"
+  },
+  "cleaning": {
+    "raw_rows": 13102,
+    "missing_exam_date_rows": 30,
+    "pre_minimum_date_rows": 0,
+    "future_date_rows": 1,
+    "missing_harmonized_diagnosis_rows": 11,
+    "retained_rows": 13071,
+    "retained_participants": 2898
+  },
+  "rules": {
+    "candidate_non_ad_followup": {
+      "baseline_mci_candidates": 1081,
+      "excluded_without_qualifying_outcome": 379,
+      "cohort_total": 702,
+      "converters": 255,
+      "stable": 447
+    },
+    "strict_stable_mci": {
+      "baseline_mci_candidates": 1081,
+      "excluded_without_qualifying_outcome": 417,
+      "cohort_total": 664,
+      "converters": 255,
+      "stable": 409
+    }
+  },
+  "candidate_coverage": {
+    "demographics": 702,
+    "any_family_history_table": 702
+  },
+  "status": "reported_counts_not_yet_reproduced"
+}

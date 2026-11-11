@@ -1,0 +1,39 @@
+method,STATUS,QC,n
+robust_mean,complete,CC/CR misregistration due to WM disease,2
+robust_mean,complete,atlas registration failed; voxel dim,1
+robust_mean,complete,check anatomy/pathology,1
+robust_mean,complete,check artifacts,216
+robust_mean,complete,check artifacts; check anatomy/pathology,1
+robust_mean,complete,check artifacts; check voxel dim,1
+robust_mean,complete,check artifacts; residual distortion,14
+robust_mean,complete,check artifacts; voxel dim,3
+robust_mean,complete,check pathology,3
+robust_mean,complete,check pathology/anatomy,1
+robust_mean,complete,check voxel dim,95
+robust_mean,complete,none,2177
+robust_mean,complete,voxel dim,25
+robust_mean,not processed,failed DICOM conversion,12
+robust_mean,not processed,failed DICOM conversion (repeat scan),1
+robust_mean,not processed,incomplete acquisition,15
+robust_mean,not processed,poor field of view,1
+robust_mean,not processed,severe artifacts,2
+robust_mean,not processed,severe artifacts (repeat scan),1
+standard_mean,complete,CC/CR misregistration due to WM disease,2
+standard_mean,complete,atlas registration failed; voxel dim,1
+standard_mean,complete,check anatomy/pathology,1
+standard_mean,complete,check artifacts,217
+standard_mean,complete,check artifacts; check anatomy/pathology,1
+standard_mean,complete,check artifacts; check voxel dim,1
+standard_mean,complete,check artifacts; residual distortion,14
+standard_mean,complete,check artifacts; voxel dim,3
+standard_mean,complete,check pathology,3
+standard_mean,complete,check pathology/anatomy,1
+standard_mean,complete,check voxel dim,95
+standard_mean,complete,none,2240
+standard_mean,complete,voxel dim,25
+standard_mean,not processed,failed DICOM conversion,12
+standard_mean,not processed,failed DICOM conversion (repeat scan),1
+standard_mean,not processed,incomplete acquisition,15
+standard_mean,not processed,poor field of view,1
+standard_mean,not processed,severe artifacts,2
+standard_mean,not processed,severe artifacts (repeat scan),1

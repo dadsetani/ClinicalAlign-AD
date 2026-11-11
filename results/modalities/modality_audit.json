@@ -1,0 +1,67 @@
+{
+  "config": {
+    "data_cutoff": "2026-09-20",
+    "windows": {
+      "clinical": {
+        "days_before": 180,
+        "days_after": 90
+      },
+      "nfl": {
+        "days_before": 365,
+        "days_after": 90
+      },
+      "dti": {
+        "days_before": 365,
+        "days_after": 90
+      },
+      "freesurfer": {
+        "days_before": 365,
+        "days_after": 90
+      }
+    },
+    "dti_excluded_qc_terms": [
+      "severe artifacts",
+      "failed dicom conversion",
+      "incomplete acquisition",
+      "poor field of view",
+      "atlas registration failed"
+    ],
+    "freesurfer_fields": {
+      "fs_icv": "ST10CV",
+      "fs_left_hippocampus_volume": "ST29SV",
+      "fs_right_hippocampus_volume": "ST88SV",
+      "fs_left_amygdala_volume": "ST12SV",
+      "fs_right_amygdala_volume": "ST71SV",
+      "fs_left_lateral_ventricle_volume": "ST37SV",
+      "fs_right_lateral_ventricle_volume": "ST96SV",
+      "fs_left_entorhinal_thickness": "ST24TA",
+      "fs_right_entorhinal_thickness": "ST83TA",
+      "fs_left_fusiform_thickness": "ST26TA",
+      "fs_right_fusiform_thickness": "ST85TA",
+      "fs_left_middle_temporal_thickness": "ST40TA",
+      "fs_right_middle_temporal_thickness": "ST99TA",
+      "fs_left_inferior_temporal_thickness": "ST32TA",
+      "fs_right_inferior_temporal_thickness": "ST91TA",
+      "fs_total_gray_matter_volume": "ST154SV",
+      "fs_supratentorial_volume": "ST155SV"
+    }
+  },
+  "cohort_n": 702,
+  "duplicate_rid_n": 0,
+  "post_outcome_selected_measurements_n": 0,
+  "eligible_dti_scan_pool_n": 3515,
+  "eligible_dti_standard_mean_scan_pool_n": 2603,
+  "eligible_freesurfer_scan_pool_n": 12282,
+  "input_manifest": {
+    "Subject_Characteristics.zip": "9d0de16663aa4067be2ea3638d5cc490ed553ec963e0efd65616da7aecdffd7d",
+    "NFL.zip": "4b1f3aad564b8282f822d040a7ee507d37437a46a4de8cb0da06e2900637c42c",
+    "VITALS_18Sep2026.csv": "e19ecb5cf97fc86503b5d07f18299d136d44a3be635f8cb3c30b270936bceadb",
+    "NEUROEXM_18Sep2026.csv": "b941a48fc8d3177ec1fa5ff40871f299614d05d2bd2e0d493b1ce061febbef53",
+    "MEDHIST_18Sep2026.csv": "a606ae9de41b668b5b1fb0924a94aea2b60b02bb804e86874099df9718fc84b3",
+    "INITHEALTH_18Sep2026.csv": "fbf4793c831cbd95d4377cd2a82b15a75dc795e2ed628aa3450c4f9125d8e130",
+    "ADNI_DTIROI_V1_18Sep2026.csv": "360a8a2dd25d09fe40529133b6e5ca6d097c13f8d96e5508597fb76d88393321",
+    "DTIROI_ROBUSTMEAN_18Sep2026.csv": "79dc95ea185792d0a1b97dba9c759e4a8f8a780db2925d6d9ea726e1a99a484d",
+    "DTIROI_MEAN_18Sep2026.csv": "74c5c816597d6ff366416518032161c812f51f88aa82b372d535ef1bed06aa06",
+    "UCSFFSX7_18Sep2026.csv": "e00524a1799175188efcd0131a24f90d59bf819978666116f8819b6f717b8e16"
+  }
+}

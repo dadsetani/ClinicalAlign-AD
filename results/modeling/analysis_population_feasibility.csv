@@ -1,0 +1,15 @@
+analysis_population,feature_set,train_n,train_converters,train_stable,test_n,test_converters,test_stable,eligible_for_modeling,exclusion_reason
+full_imputed,clinical_core,561,204,357,141,51,90,True,
+full_imputed,clinical_extended,561,204,357,141,51,90,True,
+full_imputed,clinical_core_plus_nfl,561,204,357,141,51,90,True,
+full_imputed,clinical_extended_plus_nfl,561,204,357,141,51,90,True,
+full_imputed,clinical_extended_plus_dti,561,204,357,141,51,90,True,
+full_imputed,clinical_extended_plus_dti_standard,561,204,357,141,51,90,True,
+full_imputed,clinical_extended_plus_freesurfer,561,204,357,141,51,90,True,
+full_imputed,multimodal_all,561,204,357,141,51,90,True,
+complete_case,clinical_core_plus_nfl,267,70,197,68,15,53,True,
+complete_case,clinical_extended_plus_nfl,263,68,195,66,14,52,True,
+complete_case,clinical_extended_plus_dti,98,32,66,26,4,22,False,class count below configured minimum
+complete_case,clinical_extended_plus_dti_standard,34,10,24,8,3,5,False,class count below configured minimum
+complete_case,clinical_extended_plus_freesurfer,550,199,351,135,50,85,True,
+complete_case,multimodal_all,60,22,38,17,1,16,False,class count below configured minimum

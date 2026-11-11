@@ -1,0 +1,21 @@
+\begin{table}[!ht]
+\centering
+\caption{Complete-case sensitivity analyses using logistic regression.}
+\label{tab:complete_case}
+\small
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+Feature configuration & Train n & Test n & Test converters & AUC (95\% CI) \\
+\midrule
+Clinical core + NfL & 267 & 68 & 15 & 0.633 (0.462--0.794) \\
+Clinical extended + NfL & 263 & 66 & 14 & 0.734 (0.597--0.852) \\
+Clinical extended + FreeSurfer* & 550 & 135 & 50 & 0.757 (0.674--0.834) \\
+\bottomrule
+\end{tabular}
+}
+\begin{minipage}{0.95\linewidth}\footnotesize
+Complete-case DTI analyses were not estimated because the robust-mean DTI test subset contained only 4 converters; the all-modality complete-case subset contained one converter.
+\end{minipage}
+\end{table}
